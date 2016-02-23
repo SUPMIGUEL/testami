@@ -1,0 +1,67 @@
+#slider {
+  margin-left:20px;
+  margin-top: 20px;
+}
+input[type='range']{
+-webkit-appearance: none;
+-webkit-border-radius: 1px;
+background-color: gray;
+}
+#slide{
+  height: 2px;
+  border: 10px solid white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background:  #1aa3ff;
+  margin-top: 0px;
+}
+/*Firefox */
+input[type=range]::-moz-range-thumb {
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background: #1aa3ff;
+  margin-top: 0px;
+}
+/* IE */
+input[type=range]::-ms-thumb {
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background: #1aa3ff;
+  margin-top: 0px;
+}
+#plus{
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  border-radius: 20px;
+  border: 1px solid gray;
+  text-align: center;
+  padding-bottom: 10px;
+  color: #1aa3ff;
+  cursor: pointer;
+}
+#less{
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  border-radius: 20px;
+  border: 1px solid gray;
+  text-align: center;
+  padding-bottom: 10px;
+  color: #1aa3ff;
+  cursor: pointer;
+}
+#chosen{
+  height: 22px;
+  width: 22px;
+  background: gray;
+  margin-left: 105px;
+}
